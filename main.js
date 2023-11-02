@@ -19,10 +19,10 @@ function gotResults(error,results){
     document.getElementById("result_label").style.color="rgb("+random_r+","+random_g+","+random_b+")";
     document.getElementById("result_confidence").style.color="rgb("+random_r+","+random_g+","+random_b+")";
 
-    img1=document.getElementById("cat1");
-    img2=document.getElementById("cow2");
-    img3=document.getElementById("dog3");
-    img4=document.getElementById("horse4");
+    img1=document.getElementById("cat");
+    img2=document.getElementById("cow");
+    img3=document.getElementById("dog");
+    img4=document.getElementById("horse");
 
     if(results[0].label == "Meowing"){
         img1.src="cat.gif";
