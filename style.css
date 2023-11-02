@@ -1,0 +1,35 @@
+body{
+    background:rgba(240, 128, 128, 0.625);
+     font-family: 'Dancing Script', cursive;
+}
+.header_div{
+    background:white;
+    color:red;
+    font-size:30px;
+}
+.header_div p{
+    
+    color:grey;
+    letter-spacing:2px;
+    font-size: 20px;
+    font-weight:bold;
+}
+.main_div button{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:30px;
+    width: 130px;
+    font-weight:bolder;
+    letter-spacing:3px;
+    font-size:20px;
+}
+.footer{
+    position:fixed;
+    color: rgb(51, 50, 128);
+    bottom: 0;
+    width:100%;
+    font-size:18px;
+    background-color: lightpink;
+    line-height:3;
+    text-align: center;
+    text-shadow:5px 5px 5px pink;
+}
